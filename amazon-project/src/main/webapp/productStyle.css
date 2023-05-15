@@ -1,0 +1,55 @@
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 350px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+  position: relative;
+  padding: 16px;
+}
+
+.price {
+  color: grey;
+  font-size: 22px;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
+input{
+  border: none;
+  border-color:white;
+  font-size: 22px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+  position: relative;
+  padding: 16px;	
+}
+.allCard{
+	display: flex;
+	flex-direction: inherit;
+}
+
+.product-image{
+	width:300px;
+	height:5L00px;
+	margin-left: 12px;
+	position: relative;
+}
+.product-image img{
+	width:100%;
+/* 	margin:-9px;	
+ */}
